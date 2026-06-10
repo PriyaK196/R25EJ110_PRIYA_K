@@ -1,0 +1,43 @@
+PROMPT 1
+
+I am developing a mini project called "2D Graphics Editor" in C. Explain how I can use a 2D character array as a drawing canvas and what functions I should create for drawing shapes such as lines, rectangles, triangles, and circles.
+
+RESPONSE
+
+A 2D character array can be used as a canvas where each element represents a pixel-like position. Separate functions can be created for drawing lines, rectangles, triangles, and circles by placing '*' characters at appropriate positions. A display function can be used to print the canvas to the screen.
+
+---
+
+PROMPT 2
+
+How do I compile and run a C program in Visual Studio Code using GCC?
+
+RESPONSE
+
+Compile the program using:
+
+gcc graphics_editor.c -o graphics_editor -lm
+
+Run the executable using:
+
+.\graphics_editor.exe
+
+---
+
+PROMPT 3
+
+My 2D Graphics Editor program is not drawing shapes correctly. How can I test the rectangle, line, triangle, and circle functions?
+
+RESPONSE
+
+Test each drawing function separately by providing sample coordinates and displaying the canvas after every operation. Verify that the shapes appear in the expected positions.
+
+---
+
+PROMPT 4
+
+How can I organize my GitHub repository for a C mini project submission?
+
+RESPONSE
+
+Include the source code file, README.md, prompt.txt, and any required documentation. Commit the files and push them to the GitHub repository before submitting the repository link.
